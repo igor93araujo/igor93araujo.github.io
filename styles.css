@@ -22,3 +22,17 @@ body {
 .soft {
     font-size: 16px;
 }
+
+.button{
+    background-color: rgb(51, 137, 48);
+    color: azure;
+    text-decoration:nome;
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 2px 4px;
+    text-decoration: none;   
+    margin: 0px; 
+}
+li{
+    list-style: none;
+}
