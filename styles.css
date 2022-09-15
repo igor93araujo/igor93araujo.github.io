@@ -1,20 +1,21 @@
-#apresentacao{
+#apresentacao {
     font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-body{
+body {
     background-color: rgb(157, 192, 154);
-    position:relative;
+    position: relative;
     border: solid rgb(201, 238, 245) 5px;
     padding: 15px;
 }
-#foto-igor{
+
+#foto-igor {
     border-radius: 50%;
     border: solid gray 2px
 }
 
-.hard{
+.hard {
     font-size: 20px;
 }
 
