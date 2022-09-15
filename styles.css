@@ -7,3 +7,16 @@ body{
     background-color: rgb(206, 255, 206);
     position:relative;
 }
+
+#foto-igor{
+    border-radius: 50%;
+    border: solid gray 2px
+}
+
+.hard{
+    font-size: 20px;
+}
+
+.soft {
+    font-size: 16px;
+}
