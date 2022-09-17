@@ -1,18 +1,59 @@
-#apresentacao {
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+    background-image: url("./vecteezy_technology-background_ma1220.jpg");
+    position:relative;
+    background-size: cover;
 }
 
-body {
-    background-color: rgb(157, 192, 154);
-    position: relative;
-    border: solid rgb(201, 238, 245) 5px;
-    padding: 15px;
+#content{
+    border: 2px solid rgb(8, 85, 144);
+    width: 700px;
+    padding: 20px;
+    margin-left: 600px;
+    backdrop-filter: blur(5px);
+    color: aliceblue;
+    box-shadow:3px 3px 10px rgb(64 64 64);
+    border-radius: 7%;
+}
+
+#content h1{
+    text-align: center;
+    font-size:50px;
+}
+#left{
+    text-align: center;
+    float: left;
+    width: 330px;
+}
+#right{
+    float: right;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 350px;
+    text-align: center;
+    margin-top: auto;
+}
+#right span{
+    font-size:xx-large;
+}
+
+#hardskills{
+}
+
+#skills{
+    text-align: center;
+    margin-top: 29px;
+    clear: both;
+}
+
+header h1 {
+    margin-left: 40px;
 }
 
 #foto-igor {
-    border-radius:50%;
-    border: solid gray 2px
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 3px 3px 10px rgb(64 64 64);
+    position: relative;
 }
 
 .hard {
@@ -23,16 +64,17 @@ body {
     font-size: 16px;
 }
 
-.button{
+.button {
     background-color: rgb(51, 137, 48);
     color: azure;
-    text-decoration:nome;
+    text-decoration: nome;
     font-size: 20px;
     border-radius: 4px;
     padding: 2px 4px;
-    text-decoration: none;   
-    margin: 0px; 
+    text-decoration: none;
+    margin: 0px;
 }
-li{
+
+li {
     list-style: none;
 }
