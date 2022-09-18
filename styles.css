@@ -11,13 +11,13 @@ body {
     margin-left: 600px;
     backdrop-filter: blur(5px);
     color: aliceblue;
-    box-shadow:3px 3px 10px rgb(64 64 64);
+    box-shadow:3px 3px 10px rgb(66, 242, 239);
     border-radius: 7%;
 }
 
 #content h1{
     text-align: center;
-    font-size:50px;
+    font-size:50px; 
 }
 #left{
     text-align: center;
@@ -36,13 +36,15 @@ body {
     font-size:xx-large;
 }
 
-#hardskills{
-}
 
 #skills{
-    text-align: center;
-    margin-top: 29px;
+    text-align:center;
+    margin-top: 300px;
     clear: both;
+}
+
+#skills h3{
+    margin-left: 50px;
 }
 
 header h1 {
@@ -61,18 +63,26 @@ header h1 {
 }
 
 .soft {
-    font-size: 16px;
+    font-size: 20px;
 }
 
-.button {
-    background-color: rgb(51, 137, 48);
-    color: azure;
-    text-decoration: nome;
+#hobbies{
+    width: 370px;
+    float: left;
     font-size: 20px;
-    border-radius: 4px;
-    padding: 2px 4px;
-    text-decoration: none;
-    margin: 0px;
+}
+
+#hobbies a{
+    color: white;  
+}
+
+#fim{
+    clear: both;
+    text-align: center;
+}
+#fim a{
+    text-decoration: underline;
+    color: white;
 }
 
 li {
