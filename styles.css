@@ -1,30 +1,32 @@
 body {
     background-image: url("./vecteezy_technology-background_ma1220.jpg");
-    position:relative;
+    position: relative;
     background-size: cover;
 }
 
-#content{
+#content {
     border: 2px solid rgb(8, 85, 144);
     width: 700px;
     padding: 20px;
     margin-left: 600px;
     backdrop-filter: blur(5px);
     color: aliceblue;
-    box-shadow:3px 3px 10px rgb(66, 242, 239);
+    box-shadow: 3px 3px 10px rgb(66, 242, 239);
     border-radius: 7%;
 }
 
-#content h1{
+#content h1 {
     text-align: center;
-    font-size:50px; 
+    font-size: 50px;
 }
-#left{
+
+#left {
     text-align: center;
     float: left;
     width: 330px;
 }
-#right{
+
+#right {
     float: right;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -32,18 +34,19 @@ body {
     text-align: center;
     margin-top: auto;
 }
-#right span{
-    font-size:xx-large;
+
+#right span {
+    font-size: xx-large;
 }
 
 
-#skills{
-    text-align:center;
+#skills {
+    text-align: center;
     margin-top: 300px;
     clear: both;
 }
 
-#skills h3{
+#skills h3 {
     margin-left: 50px;
 }
 
@@ -66,21 +69,22 @@ header h1 {
     font-size: 20px;
 }
 
-#hobbies{
+#hobbies {
     width: 370px;
     float: left;
     font-size: 20px;
 }
 
-#hobbies a{
-    color: white;  
+#hobbies a {
+    color: white;
 }
 
-#fim{
+#fim {
     clear: both;
     text-align: center;
 }
-#fim a{
+
+#fim a {
     text-decoration: underline;
     color: white;
 }
