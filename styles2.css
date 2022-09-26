@@ -17,7 +17,7 @@ body {
 }
 
 #cabecalho h1 {
-  display:block;
+  display: block;
   margin-left: 200px;
   font-size: 50px;
   width: 20%;
@@ -37,7 +37,7 @@ body {
   list-style: none;
 }
 
-.conteiner a:hover{
+.conteiner a:hover {
   color: rgb(81, 134, 64);
 }
 
@@ -66,7 +66,7 @@ body {
   padding-top: 50px;
 }
 
-#presentantion p span{
+#presentantion p span {
   font-size: 65px;
 }
 
@@ -75,44 +75,61 @@ body {
   font-size: 25px;
   padding-top: 50px;
   padding-left: 50px;
+  padding-bottom: 50px;
 }
 
-#skills h3{
+.tecnologias h3 {
   text-align: center;
+  margin-bottom: 100px;
 }
 
-.hard{
+.hard {
   margin-left: 10%;
 }
 
-.hard li{
+.hard li {
   display: inline-block;
   list-style: none;
-  width:300px;
+  width: 300px;
   height: 300px;
   text-align: center;
 }
 
-#git_logo{
- display: flex;
+#git_logo {
+  display: flex;
   margin-top: 30%;
-  margin-left: 15%;  
+  margin-left: 15%;
 }
 
-#html_logo{
+#html_logo {
   display: flex;
   margin-top: 15%;
-  margin-left: 15%; 
+  margin-left: 15%;
 }
 
-#css_logo{
+#css_logo {
   display: flex;
   margin-top: 12%;
-  margin-left: 15%; 
+  margin-left: 15%;
 }
 
-#js_logo{
+#js_logo {
   display: flex;
   margin-top: 15%;
-  margin-left: 25%; 
+  margin-left: 25%;
+}
+
+.tecnologias {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.softskills h3{
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.list_soft li{
+  list-style: none;
+  text-align: center;
 }
