@@ -1,9 +1,12 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body {
   background-color: rgb(32, 28, 28);
-  color:white;
+  color: white;
+  font-family: 'Comfortaa', cursive;
 }
 
-#cabecalho{
+#cabecalho {
   border: 1px solid black;
   top: 0;
   position: fixed;
@@ -13,24 +16,63 @@ body{
   margin-left: -10px;
 }
 
-#cabecalho h1{
+#cabecalho h1 {
   float: left;
-  margin-left: 50px;
+  margin-left: 200px;
+  font-size: 50px;
 }
-.conteiner{
+
+.conteiner {
   display: flex;
   flex-direction: row;
   justify-content: end;
   gap: 30px;
-  margin-right: 30px;
-  margin-top: 35px;
+  margin-right: 100px;
+  margin-top: 45px;
+  font-size: 25px;
 }
-.conteiner li{
+
+.conteiner li {
   list-style: none;
 }
 
-#presentation{
-  clear: both;
-  display: block;
+.conteiner a:hover{
+  color: rgb(81, 134, 64);
+}
+
+.conteiner a {
+  color: white;
+}
+
+#presentation {
+  margin-top: 150px;
+
+}
+
+#presentation img {
+  width: 825px;
+  float: left;
+}
+
+
+#presentation p {
+  float: right;
+  width: 50%;
+  margin-right: 100px;
   margin-top: 100px;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#presentantion p span{
+  font-size: 65px;
+}
+
+#skills {
+  clear: both;
+  
+  font-size: 25px;
+  padding-top: 50px;
+  padding-left: 50px;
 }
