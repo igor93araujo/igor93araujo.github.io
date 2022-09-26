@@ -7,19 +7,20 @@ body {
 }
 
 #cabecalho {
-  border: 1px solid black;
   top: 0;
   position: fixed;
   background-color: rgb(48, 44, 44);
   color: white;
   width: 100%;
   margin-left: -10px;
+  height: 120px;
 }
 
 #cabecalho h1 {
-  float: left;
+  display:block;
   margin-left: 200px;
   font-size: 50px;
+  width: 20%;
 }
 
 .conteiner {
@@ -28,8 +29,8 @@ body {
   justify-content: end;
   gap: 30px;
   margin-right: 100px;
-  margin-top: 45px;
   font-size: 25px;
+  margin-top: -70px;
 }
 
 .conteiner li {
@@ -59,7 +60,7 @@ body {
   float: right;
   width: 50%;
   margin-right: 100px;
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 25px;
   text-align: center;
   padding-top: 50px;
