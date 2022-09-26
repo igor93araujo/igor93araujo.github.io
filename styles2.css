@@ -72,8 +72,47 @@ body {
 
 #skills {
   clear: both;
-  
   font-size: 25px;
   padding-top: 50px;
   padding-left: 50px;
+}
+
+#skills h3{
+  text-align: center;
+}
+
+.hard{
+  margin-left: 10%;
+}
+
+.hard li{
+  display: inline-block;
+  list-style: none;
+  width:300px;
+  height: 300px;
+  text-align: center;
+}
+
+#git_logo{
+ display: flex;
+  margin-top: 30%;
+  margin-left: 15%;  
+}
+
+#html_logo{
+  display: flex;
+  margin-top: 15%;
+  margin-left: 15%; 
+}
+
+#css_logo{
+  display: flex;
+  margin-top: 12%;
+  margin-left: 15%; 
+}
+
+#js_logo{
+  display: flex;
+  margin-top: 15%;
+  margin-left: 25%; 
 }
